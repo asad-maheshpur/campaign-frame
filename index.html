@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<title>Campaign Profile Frame</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>নিচের ফটো ফ্রেমের সাহায্যে আপনার ফেসবুক প্রোফাইল ছবি তৈরি করুন</h2>
+
+<input type="file" id="upload" accept="image/*">
+
+<div class="preview">
+    <canvas id="canvas" width="1080" height="1080"></canvas>
+</div>
+
+<button onclick="downloadImage()">ডাউনলোড করুন</button>
+
+<p class="note">
+ডাউনলোড করা ছবিটি আপনার Facebook Profile Picture হিসেবে ব্যবহার করুন
+</p>
+
+<script src="script.js"></script>
+</body>
+</html>
